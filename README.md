@@ -77,6 +77,6 @@ You can find other transaction implementations [`here`](src/main/java/com/eterat
 
 ## Tests
 - `For Task 1:` You can find the test scenarios in [`Task1Tests.java`](src/test/java/com/eteration/simplebanking/Task1Tests.java) <br />
-- `Task 1: better implementation alternative:` You can find the implementation in [`Account.java`](src/main/java/com/eteration/simplebanking/model/Account.java) <br />
+- `Task 1: Better Implementation Alternative:` The `post()` method within the [`Account.java`](src/main/java/com/eteration/simplebanking/model/Account.java) allows you to execute transactions by applying the specified `Transaction` object to the account.
 - `For Task 2:` The written endpoints can be found in the [`AccountRestController.java`](src/main/java/com/eteration/simplebanking/controller/AccountRestController.java).The tests for this task can be found in [`Task2Tests.java`](src/test/java/com/eteration/simplebanking/Task2Tests.java).
 
